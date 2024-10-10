@@ -35,4 +35,4 @@ import { TemplateOverride } from './components/directives/template-override.dire
     StrapiRendererComponent
   ]
 })
-export class ComponentsModule {}
+export class StrapiRenderModule {}
