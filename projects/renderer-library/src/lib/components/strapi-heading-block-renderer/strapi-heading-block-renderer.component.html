@@ -1,9 +1,9 @@
 <ng-container [ngSwitch]="node?.level">
-    <h1 *ngSwitchCase="1"><app-strapi-renderer [content]="node?.children"></app-strapi-renderer></h1>
-    <h2 *ngSwitchCase="2"><app-strapi-renderer [content]="node?.children"></app-strapi-renderer></h2>
-    <h3 *ngSwitchCase="3"><app-strapi-renderer [content]="node?.children"></app-strapi-renderer></h3>
-    <h4 *ngSwitchCase="4"><app-strapi-renderer [content]="node?.children"></app-strapi-renderer></h4>
-    <h5 *ngSwitchCase="5"><app-strapi-renderer [content]="node?.children"></app-strapi-renderer></h5>
-    <h6 *ngSwitchCase="6"><app-strapi-renderer [content]="node?.children"></app-strapi-renderer></h6>
+    <h1 *ngSwitchCase="1"><strapi-renderer [content]="node?.children"></strapi-renderer></h1>
+    <h2 *ngSwitchCase="2"><strapi-renderer [content]="node?.children"></strapi-renderer></h2>
+    <h3 *ngSwitchCase="3"><strapi-renderer [content]="node?.children"></strapi-renderer></h3>
+    <h4 *ngSwitchCase="4"><strapi-renderer [content]="node?.children"></strapi-renderer></h4>
+    <h5 *ngSwitchCase="5"><strapi-renderer [content]="node?.children"></strapi-renderer></h5>
+    <h6 *ngSwitchCase="6"><strapi-renderer [content]="node?.children"></strapi-renderer></h6>
 </ng-container>
 

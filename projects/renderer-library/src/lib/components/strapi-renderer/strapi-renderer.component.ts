@@ -5,7 +5,7 @@ import {
 import * as blocks from '../node-interface';
 
 @Component({
-  selector: 'app-strapi-renderer',
+  selector: 'strapi-renderer',
   templateUrl: './strapi-renderer.component.html',
   styleUrl: './strapi-renderer.component.scss',
 })
