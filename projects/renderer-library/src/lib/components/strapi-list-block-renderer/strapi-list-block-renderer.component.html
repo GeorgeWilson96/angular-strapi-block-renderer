@@ -1,5 +1,5 @@
 <ng-container [ngSwitch]="node?.format">
-    <ul *ngSwitchCase="'unordered'"><strapi-renderer [content]="node?.children"></strapi-renderer></ul>
-    <ol *ngSwitchCase="'ordered'"><strapi-renderer [content]="node?.children"></strapi-renderer></ol>
+    <ul *ngSwitchCase="'unordered'"><ng-content></ng-content></ul>
+    <ol *ngSwitchCase="'ordered'"><ng-content></ng-content></ol>
 </ng-container>
 
