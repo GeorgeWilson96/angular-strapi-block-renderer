@@ -1,6 +1,6 @@
 {
-  "name": "renderer-library",
-  "version": "0.0.1",
+  "name": "angular-strapi-block-renderer",
+  "version": "0.0.3",
   "peerDependencies": {
     "@angular/common": "^17.3.0",
     "@angular/core": "^17.3.0"
