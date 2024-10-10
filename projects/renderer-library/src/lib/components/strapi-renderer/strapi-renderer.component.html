@@ -1,0 +1,13 @@
+<ng-container *ngFor="let node of content;">
+    <ng-container [ngSwitch]="node.type">
+    <app-strapi-code-block-renderer *ngSwitchCase="'code'" [node]="$any(node)"></app-strapi-code-block-renderer>
+        <app-strapi-heading-block-renderer *ngSwitchCase="'heading'" [node]="$any(node)"></app-strapi-heading-block-renderer>
+        <app-strapi-image-block-renderer *ngSwitchCase="'image'" [node]="$any(node)"></app-strapi-image-block-renderer>
+        <app-strapi-link-block-renderer *ngSwitchCase="'link'" [node]="$any(node)"></app-strapi-link-block-renderer>
+        <app-strapi-list-block-renderer *ngSwitchCase="'list'" [node]="$any(node)"></app-strapi-list-block-renderer>
+        <app-strapi-list-item-block-renderer *ngSwitchCase="'list-item'" [node]="$any(node)"></app-strapi-list-item-block-renderer>
+        <app-strapi-paragraph-block-renderer *ngSwitchCase="'paragraph'" [node]="$any(node)"></app-strapi-paragraph-block-renderer>
+        <app-strapi-quote-block-renderer *ngSwitchCase="'quote'" [node]="$any(node)"></app-strapi-quote-block-renderer>
+        <app-strapi-text-block-renderer *ngSwitchCase="'text'" [node]="$any(node)"></app-strapi-text-block-renderer>
+    </ng-container>
+</ng-container>
